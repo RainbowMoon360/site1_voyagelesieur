@@ -47,6 +47,7 @@ header .wrapper{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    height:80px;
 }
 
 .logo{
@@ -77,3 +78,124 @@ nav a:hover{
 }
 
 /*SECTION BANNIERE*/
+
+.banniere{
+    background-color:#eeeeee;
+}
+
+.banniere .wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+}
+
+.banniere h1{
+    font-size:36px;
+    text-align:center;
+    font-weight:300;
+    letter-spacing:7.2px;
+}
+
+/*SECTION TRANSPORT*/
+
+.titre-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:60px;
+    background-color:#eeeeee;
+    border:1px solid #d0d0d0;
+    margin-top:80px;
+    margin-bottom:60px;
+}
+
+.titre-section h2{
+    font-size:18px;
+    font-weight:700;
+    margin-left:20px;
+}
+
+.titre-section img{
+    margin-right:20px;
+    cursor:pointer;
+}
+
+.conteneur-transport{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:60px;
+}
+
+.conteneur-transport h3{
+    font-size:36px;
+    font-weight:300;
+    text-align:center;
+}
+
+.conteneur-transport{
+    text-align:center;
+}
+
+/*FOOTER*/
+
+footer .wrapper ul li a{
+    display:inline-block;
+    height:32px;
+    width:32px;
+}
+
+.facebook a{
+    background-image:url("../images/facebook_nb1.jpg")
+}
+
+.twitter a{
+    background-image:url("../images/twitter_nb1.jpg")
+}
+
+.linkedin a{
+    background-image:url("../images/linkedin_nb1.jpg")
+}
+
+.pinterest a{
+    background-image:url("../images/pinterest_nb1.jpg")
+}
+
+.facebook a:hover{
+    background-image:url("../images/facebook_survol1.jpg")
+}
+
+.twitter a:hover{
+    background-image:url("../images/twitter_survol1.jpg")
+}
+
+.linkedin a:hover{
+    background-image:url("../images/linkedin_survol1.jpg")
+}
+
+.pinterest a:hover{
+    background-image:url("../images/pinterest_survol1.jpg")
+}
+
+footer .wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+footer{
+    background-color:black;
+    height:70px;
+}
+
+footer h4{
+    color:white;
+    font-weight:400;
+}
+
+footer ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
