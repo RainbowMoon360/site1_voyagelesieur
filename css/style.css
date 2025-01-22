@@ -1,0 +1,79 @@
+/*--------------------------------------------------------
+Base
+--------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*--------------------------------------------------------
+Générique
+--------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", serif;
+    background-color:white;
+    font-size:18px;
+}
+
+a{
+    text-decoration:none;
+}
+
+/*--------------------------------------------------------
+Components
+--------------------------------------------------------*/
+
+/*HEADER*/
+
+header{
+    background-color:#f26c25;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+header .wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo p{
+    font-size:36px;
+    font-weight:700;
+    color:white;
+}
+
+header ul{
+    display:flex;
+    justify-content:flex-end;
+    list-style:none;
+    gap:40px;
+}
+
+nav a{
+    color:white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*SECTION BANNIERE*/
